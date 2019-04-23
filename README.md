@@ -8,11 +8,11 @@ nginx build with
 
 **Run**
 ```
-docker run --name nginx -p 80:80 -d rez0n/nginx-iframe-proxy
+docker run --name nginx -p 80:80 -d nibrev/nginx-iframe-proxy
 ```
 For more configuring flexibility you can forward config from the host machine like this (edit config in your local fs, then restart container)
 ```
-docker run --name nginx -p 80:80 -v nginx.conf:/etc/nginx/nginx.conf:ro -d rez0n/nginx-iframe-proxy
+docker run --name nginx -p 80:80 -v nginx.conf:/etc/nginx/nginx.conf:ro -d nibrev/nginx-iframe-proxy
 ```
 **Usage**
 
